@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h1>Form Registration</h1>
+    <div> 
+        <label for="fname">First Name:</label><br>
+        <input placeholder="Enter youre first name..." type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input placeholder="Enter your last name..." type="text" name="lname" id="lname"><br>
+    </div>
+       
+    <div>
+        <label for="username">User name:</label><br>
+        <input type="text" name="uname" id="uname"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="passsword" id="passsword"><br>
+    </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" name="male" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="male" id="male"><br>
+        </div>
+        
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" name="birthday" id="birthday"><br>
+        <label for="nphone">Number Phone:</label><br>
+        <input placeholder="+380" type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <h2>Educational Qualification</h2>
+        <div>
+            <label for="degree">Degree</label><br>
+            <select name="degree" id=""degree>
+                <option value="1">bachelor</option>
+                <option value="2">master</option>
+                <option value="3">unfinished</option>
+            </select><br>
+            <label for="engineering">Engineering</label><br>
+            <select name="engineering" id="Engineering">
+                <option value="1">civil</option>
+                <option value="2">IT</option>
+                <option value="3">chemistry</option>
+                <option value="4">mechanics</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Hobbies</label><br>
+            <input type="checkbox" name="hobbies" id="hobbies">
+            <label for="hobbies">Reading books</label>
+            <input type="checkbox" name="hobbies" id="hobbies">
+            <label for="hobbies">Playing chees</label>
+        </div>
+            <h2>Address</h2>
+            <textarea placeholder="Enter your address..." name="Address" id="Address" cols="30" rows="10"></textarea><br>
+
+             <label for="">add CV</label>
+             <input class="file" type="file" name="file" id="file"><br>
+             <div>
+                <button>SUMBIT</button>
+             </div>
+              
+             
+          
+            </form>
+    
+</body>
+</html>
